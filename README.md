@@ -18,13 +18,14 @@ Example usages of pcStream:
 -Anomaly detection
 -Behavioural Analysis
 
+# What is pcStream2?
+An improvement to pcStream so that overlapping clusters can be detected from the outset (and not just due to a concept drift). For example, imagine the x-y-z acceleration of your smartphone when you jump or walk. These two distrubutions overlap the same space, yet now can be detected and modeled one after the other.
+Included in the source code of pcStream2 is a version of pcStream implimented with IPCA (several orders faster then regular pcStream that uses PCA). The IPCA implimentation is JIT-PCA.
+
 # Citations
 If you use the source code or impliment pcStream, please cite the following paper:
 Yisroel Mirsky, Bracha Shapira, Lior Rokach, and Yuval Elovici. "pcStream: A Stream Clustering Algorithm for Dynamically Detecting and Managing Temporal Contexts." In Advances in Knowledge Discovery and Data Mining (PAKDD), pp. 119-133. Springer International Publishing, 2015.
-
-# What is pcStream2
-An improvement to pcStream so that overlapping clusters can be detected from the outset (and not just due to a concept drift). For example, imagine the x-y-z acceleration of your smartphone when you jump or walk. These two distrubutions overlap the same space, yet now can be detected and modeled one after the other.
-Included in the source code of pcStream2 is a version of pcStream implimented with IPCA (several orders faster then regular pcStream that uses PCA). The IPCA implimentation is JIT-PCA.
+Yisroel Mirsky, Halpern, T., Upadhyay, R. and Toledo, S., 2016, Enhanced Situation Space Mining for Data Streams, the 32nd ACM Symposium on Applied Computing
 
 Yisroel Mirsky
 yisroel@post.bgu.ac.il
