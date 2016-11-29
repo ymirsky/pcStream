@@ -25,6 +25,7 @@ Included in the source code of pcStream2 is a version of pcStream implimented wi
 # Citations
 If you use the source code or impliment pcStream, please cite the following paper:
 Yisroel Mirsky, Bracha Shapira, Lior Rokach, and Yuval Elovici. "pcStream: A Stream Clustering Algorithm for Dynamically Detecting and Managing Temporal Contexts." In Advances in Knowledge Discovery and Data Mining (PAKDD), pp. 119-133. Springer International Publishing, 2015.
+
 Yisroel Mirsky, Halpern, T., Upadhyay, R. and Toledo, S., 2016, Enhanced Situation Space Mining for Data Streams, the 32nd ACM Symposium on Applied Computing
 
 Yisroel Mirsky
